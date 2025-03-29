@@ -1,12 +1,11 @@
 # BabuLang - A Custom Programming Language  
 
-BabuLang is a custom programming language inspired by **Hindi keywords** and **C-like syntax**. It is designed to explore **compiler construction, recursive descent parsing, and AI-powered code assistance**. The language features a **custom lexer, parser, and assembly-based backend**.
+BabuLang is a custom programming language inspired by **Hindi keywords** and **C-like syntax**. It is designed to explore **compiler construction, recursive descent parsing**. The language features a **custom lexer, parser, and assembly-based backend**.
 
 ## 🚀 Features
 - ✅ **Custom Syntax** – Hindi-inspired keywords with C-like syntax.  
 - ✅ **Recursive Descent Parser** – Converts source code into an **AST**.  
 - ✅ **Compiler Backend** – Generates **NASM assembly** and links with `ld`.  
-- ✅ **AI-Powered Code Suggestions** – Uses **transformer models** for auto-completion.  
 - ✅ **Executable Output** – Compiles source code into a **binary executable**.  
 
 ## ⚡ How It Works
@@ -17,10 +16,11 @@ BabuLang is a custom programming language inspired by **Hindi keywords** and **C
 
 ## 🔥 Example Code (BabuLang Syntax)
 ```cpp
-likho("Hello, duniya!");  // Print "Hello, world!"
-
+likhoBabu(10+40); 
+mano x =10;
 agar (x > 10) { 
-    likho("X is greater than 10"); 
+    likhoBabu(x); 
 } warna { 
-    likho("X is 10 or less"); 
+    likho(0); 
 }
+babuBus(0);
